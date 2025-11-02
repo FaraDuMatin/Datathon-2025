@@ -1,0 +1,501 @@
+company_name,score
+"3M",-0.1838
+"A. O. Smith",0.4837
+"Abbott Laboratories",0.5760
+"AbbVie",0.1826
+"Accenture",0.1866
+"Adobe Inc.",0.2142
+"Advanced Micro Devices",-0.0880
+"AES Corporation",0.6689
+"Aflac",-0.1573
+"Agilent Technologies",0.5723
+"Air Products",0.1045
+"Airbnb",0.6659
+"Akamai Technologies",0.0638
+"Albemarle Corporation",0.4647
+"Alexandria Real Estate Equities",-0.1715
+"Align Technology",-0.1377
+"Allegion",-0.1913
+"Alliant Energy",-0.2939
+"Allstate",0.5953
+"Alphabet Inc. (Class A)",0.3493
+"Alphabet Inc. (Class C)",0.0765
+"Altria",0.2902
+"Amazon",0.8243
+"Amcor",-0.1835
+"Ameren",-0.2272
+"American Electric Power",-0.0019
+"American Express",-0.0914
+"American International Group",0.0836
+"American Tower",0.1980
+"American Water Works",-0.2227
+"Ameriprise Financial",0.2702
+"Ametek",-0.3495
+"Amgen",0.5118
+"Amphenol",-0.7327
+"Analog Devices",0.2251
+"Aon plc",0.3564
+"APA Corporation",-0.0769
+"Apollo Global Management",0.1990
+"Apple Inc.",0.2576
+"Applied Materials",0.6817
+"AppLovin",0.6090
+"Aptiv",0.3438
+"Arch Capital Group",0.1325
+"Archer Daniels Midland",0.1018
+"Arista Networks",0.0595
+"Arthur J. Gallagher & Co.",0.0415
+"Assurant",0.7437
+"AT&T",-0.0771
+"Atmos Energy",0.3517
+"Autodesk",0.0653
+"Automatic Data Processing",-0.0112
+"AutoZone",0.1518
+"AvalonBay Communities",1.0000
+"Avery Dennison",0.4363
+"Axon Enterprise",-0.3091
+"Baker Hughes",0.2264
+"Ball Corporation",0.8862
+"Bank of America",0.4292
+"Baxter International",0.2502
+"Becton Dickinson",-0.1390
+"Berkshire Hathaway",0.1869
+"Best Buy",0.1129
+"Bio-Techne",0.5679
+"Biogen",0.2752
+"BlackRock",0.1628
+"Blackstone Inc.",0.1284
+"Block, Inc.",0.4697
+"BNY Mellon",0.3721
+"Boeing",0.8199
+"Booking Holdings",0.6761
+"Boston Scientific",0.5006
+"Bristol Myers Squibb",0.1592
+"Broadcom",-0.3453
+"Broadridge Financial Solutions",-0.0359
+"Brown & Brown",0.3553
+"Brown–Forman",0.4135
+"Builders FirstSource",-0.0599
+"Bunge Global",0.0399
+"BXP, Inc.",0.2617
+"C.H. Robinson",0.3923
+"Cadence Design Systems",0.9110
+"Camden Property Trust",0.7032
+"Campbell's Company (The)",0.6597
+"Capital One",0.3718
+"Cardinal Health",0.3302
+"Carnival",-0.5798
+"Carrier Global",-0.1688
+"Caterpillar Inc.",0.1254
+"Cboe Global Markets",-0.5069
+"CBRE Group",0.4876
+"CDW Corporation",0.0355
+"Cencora",0.4951
+"Centene Corporation",0.6341
+"CenterPoint Energy",0.0145
+"CF Industries",0.1566
+"Charles River Laboratories",0.4086
+"Charles Schwab Corporation",0.3124
+"Charter Communications",0.3289
+"Chevron Corporation",0.0078
+"Chipotle Mexican Grill",0.2893
+"Chubb Limited",-0.2492
+"Church & Dwight",0.0674
+"Cigna",-0.2780
+"Cincinnati Financial",1.0000
+"Cintas",-0.0931
+"Cisco",-0.0205
+"Citigroup",0.6779
+"Citizens Financial Group",0.6453
+"Clorox",0.8669
+"CME Group",-0.2671
+"CMS Energy",0.0402
+"Coca-Cola Company (The)",0.0627
+"Cognizant",0.3361
+"Coinbase",-0.3105
+"Colgate-Palmolive",0.3597
+"Comcast",0.3587
+"Conagra Brands",-0.0267
+"ConocoPhillips",1.0000
+"Consolidated Edison",0.0795
+"Constellation Brands",-0.3460
+"Constellation Energy",0.1623
+"Cooper Companies (The)",0.2429
+"Copart",0.5593
+"Corning Inc.",-0.1453
+"Corpay",0.0280
+"Corteva",0.1454
+"CoStar Group",0.4573
+"Costco",-0.1707
+"Coterra",0.1580
+"CrowdStrike",-0.2243
+"Crown Castle",0.5729
+"CSX Corporation",0.3694
+"Cummins",-0.1938
+"CVS Health",0.0243
+"D. R. Horton",0.4316
+"Danaher Corporation",-0.1579
+"Darden Restaurants",-0.6083
+"Datadog",-0.0012
+"DaVita",0.0228
+"Dayforce",0.3984
+"Deckers Brands",-0.2703
+"Deere & Company",0.3759
+"Dell Technologies",0.2784
+"Delta Air Lines",-0.0487
+"Devon Energy",0.5623
+"Dexcom",0.1803
+"Diamondback Energy",0.4917
+"Digital Realty",0.4905
+"Dollar General",-0.2483
+"Dollar Tree",-0.0322
+"Dominion Energy",0.6698
+"Domino's",0.5107
+"DoorDash",0.5391
+"Dover Corporation",0.4773
+"Dow Inc.",0.1453
+"DTE Energy",0.0387
+"Duke Energy",0.2329
+"DuPont",-0.0973
+"Eastman Chemical Company",0.8359
+"Eaton Corporation",0.2721
+"eBay Inc.",0.8817
+"Ecolab",0.3588
+"Edison International",0.2271
+"Edwards Lifesciences",0.2148
+"Electronic Arts",0.0520
+"Elevance Health",0.4461
+"Emcor",0.4228
+"Emerson Electric",0.7060
+"Entergy",0.5506
+"EOG Resources",-0.2167
+"EPAM Systems",0.6596
+"EQT Corporation",0.4254
+"Equifax",-0.2061
+"Equinix",-0.0822
+"Equity Residential",0.6965
+"Erie Indemnity",-0.1265
+"Essex Property Trust",0.4762
+"Estée Lauder Companies (The)",0.0986
+"Everest Group",0.3013
+"Evergy",0.0577
+"Eversource Energy",0.3874
+"Exelon",0.7051
+"Expand Energy",-0.1230
+"Expedia Group",-0.2502
+"Expeditors International",0.6448
+"Extra Space Storage",0.1617
+"ExxonMobil",-0.0343
+"F5, Inc.",0.3605
+"FactSet",-0.1972
+"Fair Isaac",0.2587
+"Fastenal",-0.0023
+"Federal Realty Investment Trust",-0.2328
+"FedEx",-0.0863
+"Fidelity National Information Services",0.1070
+"Fifth Third Bancorp",-0.3690
+"First Solar",0.4815
+"FirstEnergy",-0.0350
+"Fiserv",0.3404
+"Ford Motor Company",0.0685
+"Fortinet",0.6421
+"Fortive",0.0098
+"Fox Corporation (Class A)",0.1120
+"Fox Corporation (Class B)",0.5243
+"Franklin Resources",-0.0896
+"Freeport-McMoRan",0.2202
+"Garmin",0.1511
+"Gartner",0.7632
+"GE Aerospace",0.4009
+"GE HealthCare",-0.0103
+"GE Vernova",-0.3028
+"Gen Digital",-0.1717
+"Generac",0.0195
+"General Dynamics",0.0847
+"General Mills",0.1883
+"General Motors",0.5421
+"Genuine Parts Company",0.1160
+"Gilead Sciences",0.4283
+"Global Payments",0.3654
+"Globe Life",0.5444
+"GoDaddy",0.3358
+"Goldman Sachs",0.0976
+"Halliburton",0.2053
+"Hartford (The)",0.7976
+"Hasbro",0.7234
+"HCA Healthcare",0.3502
+"Healthpeak Properties",0.2434
+"Henry Schein",-0.2522
+"Hershey Company (The)",-0.0205
+"Hewlett Packard Enterprise",0.0992
+"Hilton Worldwide",0.4471
+"Hologic",-0.0462
+"Home Depot (The)",-0.1649
+"Honeywell",-0.0253
+"Hormel Foods",0.3487
+"Host Hotels & Resorts",0.9394
+"Howmet Aerospace",-0.1881
+"HP Inc.",0.3528
+"Hubbell Incorporated",-0.5168
+"Humana",0.4179
+"Huntington Bancshares",0.2813
+"Huntington Ingalls Industries",0.5317
+"IBM",0.3540
+"IDEX Corporation",0.1895
+"Idexx Laboratories",0.4782
+"Illinois Tool Works",0.5541
+"Incyte",-0.5146
+"Ingersoll Rand",0.5146
+"Insulet Corporation",0.1318
+"Intel",0.2157
+"Interactive Brokers",0.1680
+"Intercontinental Exchange",0.2339
+"International Flavors & Fragrances",0.5875
+"International Paper",-0.0571
+"Interpublic Group of Companies (The)",0.2899
+"Intuit",-0.0235
+"Intuitive Surgical",0.4854
+"Invesco",0.7145
+"Invitation Homes",-0.1078
+"IQVIA",0.3987
+"Iron Mountain",0.4173
+"J.B. Hunt",-0.0931
+"J.M. Smucker Company (The)",0.0775
+"Jabil",-0.1785
+"Jack Henry & Associates",0.6682
+"Jacobs Solutions",0.6956
+"Johnson & Johnson",0.0874
+"Johnson Controls",0.6579
+"JPMorgan Chase",-0.0503
+"Kellanova",0.3791
+"Kenvue",-0.0864
+"Keurig Dr Pepper",-0.1179
+"KeyCorp",0.0768
+"Keysight Technologies",0.5618
+"Kimberly-Clark",-0.0146
+"Kimco Realty",0.3490
+"Kinder Morgan",0.6150
+"KKR & Co.",0.4581
+"KLA Corporation",0.6451
+"Kraft Heinz",0.1119
+"Kroger",0.6364
+"L3Harris",0.2698
+"Labcorp",0.0694
+"Lam Research",0.1060
+"Lamb Weston",0.3982
+"Las Vegas Sands",-0.0965
+"Leidos",-0.0609
+"Lennar",0.0436
+"Lennox International",-0.1022
+"Lilly (Eli)",0.4463
+"Linde plc",0.1785
+"Live Nation Entertainment",0.1989
+"LKQ Corporation",-0.1184
+"Lockheed Martin",-0.1065
+"Loews Corporation",0.2035
+"Lowe's",-0.0690
+"Lululemon Athletica",0.5009
+"LyondellBasell",-0.1445
+"M&T Bank",-0.0513
+"Marathon Petroleum",0.0483
+"Marriott International",-0.2632
+"Marsh McLennan",0.1265
+"Martin Marietta Materials",-0.0576
+"Masco",0.3599
+"Mastercard",0.3636
+"Match Group",-0.0586
+"McCormick & Company",-0.1534
+"McDonald's",-0.1011
+"McKesson Corporation",0.1014
+"Medtronic",0.4672
+"Merck & Co.",0.1043
+"Meta Platforms",0.0260
+"MetLife",0.9729
+"Mettler Toledo",-0.2359
+"MGM Resorts",0.1468
+"Microchip Technology",0.0040
+"Micron Technology",0.2944
+"Microsoft",0.2050
+"Mid-America Apartment Communities",0.0636
+"Moderna",0.1843
+"Mohawk Industries",0.1004
+"Molina Healthcare",-0.1432
+"Molson Coors Beverage Company",-0.1882
+"Mondelez International",0.0928
+"Monolithic Power Systems",-0.3070
+"Monster Beverage",-0.1162
+"Moody's Corporation",-0.0724
+"Morgan Stanley",-0.1011
+"Mosaic Company (The)",0.2996
+"Motorola Solutions",-0.0287
+"MSCI Inc.",0.1669
+"Nasdaq, Inc.",0.2891
+"NetApp",-0.2653
+"Netflix",0.1440
+"Newmont",-0.8981
+"News Corp (Class A)",-0.0620
+"News Corp (Class B)",-0.0831
+"NextEra Energy",0.3761
+"Nike, Inc.",0.1369
+"NiSource",0.5166
+"Nordson Corporation",0.5694
+"Norfolk Southern",0.1423
+"Northern Trust",0.7783
+"Northrop Grumman",0.2248
+"Norwegian Cruise Line Holdings",0.7937
+"NRG Energy",-0.1724
+"Nucor",0.4530
+"Nvidia",-0.1119
+"NVR, Inc.",0.4908
+"NXP Semiconductors",1.0000
+"O’Reilly Automotive",0.0971
+"Occidental Petroleum",-0.1233
+"Old Dominion",-0.1423
+"Omnicom Group",-0.1326
+"ON Semiconductor",0.6065
+"Oneok",0.0362
+"Oracle Corporation",-0.0605
+"Otis Worldwide",0.0337
+"Paccar",-0.0541
+"Packaging Corporation of America",0.3041
+"Palantir Technologies",0.2902
+"Palo Alto Networks",0.7575
+"Paramount Skydance Corporation",0.0732
+"Parker Hannifin",0.4461
+"Paychex",0.7708
+"Paycom",0.4188
+"PayPal",0.1447
+"Pentair",0.3254
+"PepsiCo",0.1078
+"Pfizer",0.9731
+"PG&E Corporation",0.1989
+"Philip Morris International",0.4505
+"Phillips 66",0.1514
+"Pinnacle West Capital",0.3350
+"PNC Financial Services",0.1083
+"Pool Corporation",0.3034
+"PPG Industries",-0.1879
+"PPL Corporation",-0.1737
+"Principal Financial Group",0.6849
+"Procter & Gamble",0.2398
+"Progressive Corporation",0.3935
+"Prologis",0.3389
+"Prudential Financial",0.4406
+"PTC Inc.",-0.1742
+"Public Service Enterprise Group",0.5697
+"Public Storage",0.0460
+"PulteGroup",0.4414
+"Qualcomm",0.4206
+"Quanta Services",0.7040
+"Quest Diagnostics",0.4696
+"Ralph Lauren Corporation",0.6065
+"Raymond James Financial",-0.2521
+"Realty Income",0.5074
+"Regency Centers",0.0084
+"Regeneron Pharmaceuticals",0.3107
+"Regions Financial Corporation",0.2934
+"Republic Services",-0.1171
+"ResMed",0.6845
+"Revvity",0.7518
+"Robinhood Markets",0.2528
+"Rockwell Automation",0.2323
+"Rollins, Inc.",-0.0466
+"Roper Technologies",-0.1997
+"Ross Stores",0.3670
+"Royal Caribbean Group",0.2612
+"RTX Corporation",0.1655
+"S&P Global",0.3903
+"Salesforce",-0.2029
+"SBA Communications",-0.4766
+"Schlumberger",-0.0557
+"Seagate Technology",0.4932
+"Sempra",0.0542
+"ServiceNow",0.1187
+"Sherwin-Williams",-0.1907
+"Simon Property Group",-0.1191
+"Skyworks Solutions",0.2391
+"Smurfit Westrock",0.6448
+"Snap-on",0.3622
+"Solstice Advanced Materials",0.6837
+"Solventum",0.0569
+"Southern Company",0.1745
+"Southwest Airlines",0.0402
+"Stanley Black & Decker",0.0898
+"Starbucks",0.5635
+"State Street Corporation",0.0510
+"Steel Dynamics",0.0055
+"Steris",-0.2719
+"Stryker Corporation",0.0634
+"Supermicro",1.0000
+"Synchrony Financial",0.0074
+"Synopsys",0.1750
+"Sysco",-0.2659
+"T-Mobile US",-0.0250
+"T. Rowe Price",-0.1480
+"Take-Two Interactive",0.5190
+"Tapestry, Inc.",-0.2038
+"Targa Resources",0.3959
+"Target Corporation",0.1139
+"TE Connectivity",-0.0583
+"Teledyne Technologies",0.2278
+"Teradyne",0.1395
+"Tesla, Inc.",-0.1664
+"Texas Instruments",-0.0579
+"Texas Pacific Land Corporation",0.1088
+"Textron",-0.0636
+"Thermo Fisher Scientific",0.5763
+"TJX Companies",-0.4388
+"TKO Group Holdings",0.1136
+"Tractor Supply",-0.4243
+"Trade Desk (The)",-0.3570
+"Trane Technologies",0.1829
+"TransDigm Group",0.3611
+"Travelers Companies (The)",0.2804
+"Trimble Inc.",-0.1005
+"Truist Financial",0.1658
+"Tyler Technologies",0.4899
+"Tyson Foods",0.3547
+"U.S. Bancorp",0.4909
+"Uber",-0.2157
+"UDR, Inc.",0.0620
+"Ulta Beauty",0.5332
+"Union Pacific Corporation",0.3977
+"United Airlines Holdings",0.4219
+"United Parcel Service",0.4700
+"United Rentals",1.0000
+"UnitedHealth Group",0.6720
+"Universal Health Services",0.2093
+"Valero Energy",-0.0990
+"Ventas",0.5183
+"Veralto",-0.3460
+"Verisign",-0.2919
+"Verisk Analytics",0.4371
+"Verizon",-0.2976
+"Vertex Pharmaceuticals",0.1484
+"Viatris",0.2820
+"Vici Properties",0.8024
+"Visa Inc.",0.2967
+"Vistra Corp.",-0.3518
+"Vulcan Materials Company",0.6503
+"W. R. Berkley Corporation",0.0207
+"W. W. Grainger",0.7365
+"Wabtec",0.6011
+"Walmart",0.3663
+"Walt Disney Company (The)",0.7350
+"Warner Bros. Discovery",0.1541
+"Waste Management",-0.0347
+"Waters Corporation",0.4566
+"WEC Energy Group",0.4922
+"Wells Fargo",-0.0199
+"Welltower",-0.1938
+"West Pharmaceutical Services",0.4069
+"Western Digital",-0.0051
+"Weyerhaeuser",0.3747
+"Williams Companies",-0.1227
+"Williams-Sonoma, Inc.",0.1266
+"Willis Towers Watson",0.2321
+"Workday, Inc.",0.4113
+"Wynn Resorts",0.4998
+"Xcel Energy",0.4773
+"Xylem Inc.",-0.2409
+"Yum! Brands",0.8377
