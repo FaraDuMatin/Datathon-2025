@@ -8,13 +8,17 @@ interface SidebarProps {
   onSelectLaw: (lawId: number) => void;
 }
 
-const laws = [
-  { id: 1, name: 'Law 1', description: 'Generally positive impact' },
-  { id: 2, name: 'Law 2', description: 'Mixed/small negative' },
-  { id: 3, name: 'Law 3', description: 'Small positive impact' },
-  { id: 4, name: 'Law 4', description: 'Negative impact' },
-  { id: 5, name: 'Law 5', description: 'Wide variability' },
-];
+// const laws = [
+//   { id: 1, name: 'Law 1', description: 'Generally positive impact' },
+//   { id: 2, name: 'Law 2', description: 'Mixed/small negative' },
+//   { id: 3, name: 'Law 3', description: 'Small positive impact' },
+//   { id: 4, name: 'Law 4', description: 'Negative impact' },
+//   { id: 5, name: 'Law 5', description: 'Wide variability' },
+// ];
+
+const laws: any[] = [];
+
+
 
 export function Sidebar({ selectedLaw, onSelectLaw }: SidebarProps) {
   return (
