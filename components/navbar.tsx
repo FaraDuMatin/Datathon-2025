@@ -11,7 +11,6 @@ export function Navbar() {
           <h1 className="text-xl font-bold">Law Impact Analyzer</h1>
         </div>
         <div className="ml-auto flex items-center gap-4">
-          <span className="text-sm text-muted-foreground">S&P 500 Companies</span>
         </div>
       </div>
     </nav>

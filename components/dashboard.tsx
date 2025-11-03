@@ -148,32 +148,6 @@ export function Dashboard({ lawId, data }: DashboardProps) {
           </CardContent>
         </Card>
 
-        {/* Top 10 Most Impacted */}
-        <Card>
-          <CardHeader>
-            <CardTitle>Top 10 Most Impacted</CardTitle>
-            <CardDescription>By absolute score value</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={topImpacted} layout="horizontal">
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis type="number" domain={[-1, 1]} />
-                <YAxis dataKey="name" type="category" width={100} />
-                <Tooltip />
-                <Bar dataKey="score">
-                  {topImpacted.map((entry, index) => (
-                    <Cell
-                      key={`cell-${index}`}
-                      fill={entry.score > 0 ? 'hsl(var(--success))' : 'hsl(var(--destructive))'}
-                    />
-                  ))}
-                </Bar>
-              </BarChart>
-            </ResponsiveContainer>
-          </CardContent>
-        </Card>
-
         {/* Scatter Plot */}
         <Card>
           <CardHeader>
