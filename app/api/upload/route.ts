@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { promises as fs } from 'fs';
-import path from 'path';
+import Papa from 'papaparse';
 
 export async function POST(request: NextRequest) {
   try {
@@ -15,33 +14,44 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Convert file into a Buffer
-    const bytes = await file.arrayBuffer();
-    const buffer = Buffer.from(bytes);
+    // Read file content as text
+    const fileContent = await file.text();
 
-    // Define the upload directory relative to project root
-    const uploadDir = path.join(process.cwd(), 'upload');
-    
-    // Create directory if it doesn't exist
-    await fs.mkdir(uploadDir, { recursive: true });
+    // Parse CSV to JSON
+    const parseResult = Papa.parse(fileContent, {
+      header: true,
+      dynamicTyping: true,
+      skipEmptyLines: true,
+    });
 
-    // Save file with its original name
-    const filePath = path.join(uploadDir, file.name);
-    await fs.writeFile(filePath, buffer);
+    if (parseResult.errors.length > 0) {
+      return NextResponse.json(
+        { 
+          error: 'CSV parsing failed', 
+          details: parseResult.errors 
+        },
+        { status: 400 }
+      );
+    }
+
+    const csvData = parseResult.data as Array<{ company_name: string; score: number }>;
+    const columns = parseResult.meta.fields || [];
 
     return NextResponse.json(
       { 
-        message: 'File uploaded successfully',
+        message: 'File uploaded and processed successfully',
         filename: file.name,
-        path: filePath,
-        size: buffer.length
+        columns: columns,
+        rowCount: csvData.length,
+        data: csvData,
+        preview: csvData.slice(0, 5), // First 5 rows for preview
       },
       { status: 200 }
     );
   } catch (error) {
     console.error('Upload error:', error);
     return NextResponse.json(
-      { error: 'Failed to upload file', details: String(error) },
+      { error: 'Failed to process file', details: String(error) },
       { status: 500 }
     );
   }
